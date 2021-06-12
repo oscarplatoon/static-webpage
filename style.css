@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+#image-box {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-image {
+	display: none;
+	width: 100%;
+	object-fit: cover;
+	position: relative;
+	z-index: 1;
+}
+
+#start-logo {
+	position: absolute;
+	left: 45vw;
+	top: 10vh;
+	z-index: 2;
+}
+
+#carousel-text {
+	position: absolute;
+	left: 44vw;
+	top: 50vh;
+	z-index: 2;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+header {
+	background-color: #2b2a2a;
+	z-index: 3;
+}
+
+header * {
+	display: inline;
+}
+
+#navbar {
+	display: inline;
+}
+
+#navbar div a {
+	text-decoration: none;
+	color: white;
+}
+
+#product {
+	margin: 5vh 10vw;
+}
+
+#product * {
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.nav-item {
+	float: right;
+	margin: 15px
+}
+
+#logo {
+	margin: 0 0 0 10px;
+}
+
+#start-image {
+	opacity: 0.5;
+}
+
+#portfolio {
+	background-color: #2b2a2a;
+	color: white;
+	text-align: center;
+}
+
+.wrap {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto;
+}
+
+.projects {
+	margin: 10px;
+}
+
+#portfolio button {
+	background-color: #27454f;
+	box-shadow: 2px 2px #1b5b47;
+	width: 300px;
+	height: 50px;
+	margin-top: 10px;
+	color: white;
+}
+
+.flex p {
+	animation: slideleft 3s;
+}
+
+#box-desc {
+	transition: all 2s;
+}
+
+#box-pic {
+	transition: all 2s;
+}
+
+.hide {
+	opacity: 0;
+}
+
+.show {
+	opacity: 1;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+@keyframes slideleft {
+	0% {
+		transform: translate(100, 0);
+	}
+
+	100% {
+		text-replace: translate(0, 0);
+	}
+}
