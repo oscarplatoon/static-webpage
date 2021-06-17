@@ -1,0 +1,32 @@
+
+#container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align:middle;
+  padding-bottom: 900px;
+  text-align: center;
+  width: 1200px;
+  height: 900px;
+}
+
+#div-intro {
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 400px;
+  font-size: xx-large;
+  text-shadow: -1px -1px 0 #000;
+  position: absolute;
+}
+
+#div-main {
+  background-color:black;
+  color: white;
+  width: 1200px;
+}
+
+#img-splash {
+  width: 100%;
+}
+
