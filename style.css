@@ -1,0 +1,18 @@
+.nav-link {
+  color: white;
+  transition: color;
+}
+
+.jumbotron {
+  padding-top: 50px;
+}
+
+.lead {
+  padding: 50px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: auto;
+    max-height: 750px;
+}
